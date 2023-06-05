@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/slideshow.css"/>
+    <title>Proyects</title>
+    <style>
+        main{
+            justify-content: center;
+            display: flex;
+            align-content: center;
+        }
+        body{
+          background-color:  coral;;
+        }
+
+        div img{
+        height: 80%;
+        width: 100%;}
+
+        * {
+            box-sizing: border-box;}
+          
+          .gallery{
+            display: flex;
+            gap: 2em;
+            flex-wrap: wrap;}
+
+          .card{
+            flex-basis: 18%;
+            flex-grow: 0.5em;
+            padding: 0em;
+            display: flex;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+        }
+        .card_img:nth-child(1){
+        flex-grow: 0.3;
+
+            
+        }
+        .card_img{
+            width: 100%;
+            height: 270%;
+            padding: 0;
+        }
+        h2{
+    display: flex;
+    text-align: center;
+    font-size: 8em;
+    }
+
+    h2:hover{
+            color: antiquewhite;}
+    
+    nav, h2, footer{
+        font-family: 'Unbounded', light;}
+    
+    footer{
+        align-items: center;
+        text-align: center;
+        }
+    
+
+    </style>
+
+</head>
+<body>
+    <header>
+  <div class="gallery">
+    <div class="card">
+        <figure class="card_img">
+            <img src="../img/interior rojo.jpg" alt="">
+        </figure>
+        </div>
+    <div class="card">
+          <figure class="card_img">
+              <img src="../img/a4-magazine-mockup-cover-opening.jpg" alt="">
+          </figure>
+          </div>
+    <div class="card">
+            <figure class="card_img">
+                <img src="../img/reels.png" alt="">
+            </figure>
+            </div>
+    <div class="card">
+              <figure class="card_img">
+                  <img src="../img/interior azul.jpg" alt="">
+              </figure>
+              </div>
+
+    <a href="../index.html"><h2>Proyects</h2></a>
+
+    <div class="gallery">
+                <div class="card">
+                    <figure class="card_img">
+                        <img src="../img/cartel extraños en un tren.jpg" alt="">
+                    </figure>
+                    </div>
+    <div class="gallery">
+                 <div class="card">
+                    <figure class="card_img">
+                         <img src="../img/todo.png" alt="">
+                          </figure>
+                 </div>
+    </header>
+                
+    <footer>
+                    <p>Alicante, España.</p>
+                    <a href="../pages/contact.html"><p>Contact</p></a>
+                </footer>
+    
+</body>
+
+</html>

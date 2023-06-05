@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Unbounded:wght@300&display=swap');
+    *{
+        padding: 1em;
+        margin: 1em;}
+        
+          
+    header, main, nav, footer{
+        padding: 14vw;}
+
+    h1, header{
+        font-family: 'Modak', normal;
+        color: aliceblue;}
+
+    h1{
+        font-size: 5em;
+    }
+    header{
+        font-size: 1em;
+    }
+    nav, h2, footer{
+        font-family: 'Unbounded', light;}
+    
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+          }
+          
